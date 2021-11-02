@@ -57,7 +57,7 @@ class Dinosaur:
         if self.dino_run:
             self.run()
         if self.dino_jump:
-            self.jump()
+            self.jump(w)
 
         if self.step_index >= 10:
             self.step_index = 0
